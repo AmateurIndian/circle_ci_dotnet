@@ -3,7 +3,8 @@ jobs:
   working_directory: /DemoThundra
   docker:
     - image: microsoft/dotnet:2-sdk
+      
   steps:
     - checkout
-    -run: cd test/DemoThundra.Tests/  && dotnet test
+    - run: cd test/DemoThundra.Tests/  && dotnet test
   
