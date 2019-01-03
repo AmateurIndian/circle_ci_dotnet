@@ -1,0 +1,9 @@
+version: 1
+jobs:
+  build:
+    working_directory: ~/circle_ci_dotnet
+    docker:
+    - image: circleci/python:3.6.4
+    run:
+      command: |
+        python helloWorld.py
