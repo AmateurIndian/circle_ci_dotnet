@@ -1,3 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/AmateurIndian/circle_ci_dotnet/badge.svg?branch=master)](https://coveralls.io/github.com/AmateurIndian/circle_ci_dotnet?branch=master)
+[![CircleCI](https://circleci.com/gh/AmateurIndian/circle_ci_dotnet.svg?style=svg)](https://circleci.com/gh/AmateurIndian/circle_ci_dotnet)
+
 # circle_ci_dotnet
 Running dotnet XUnit tests on CircleCI 
