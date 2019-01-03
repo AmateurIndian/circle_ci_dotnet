@@ -1,11 +1,9 @@
-version: 1
+version: 2
 jobs:
-  build:
-    working_directory: ~/circle_ci_dotnet
-    docker:
-    - image: circleci/python:3.6.4
-    steps:
-      - checkout
-      - run:
-          command: |
-            python helloWorld.py
+  working_directory: /DemoThundra
+  docker:
+    - image: microsoft/dotnet:2-sdk
+  steps:
+    - checkout
+    -run: cd test/DemoThundra.Tests/  && dotnet test
+  
